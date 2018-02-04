@@ -1,0 +1,5 @@
+services:
+    loevgaard_linkmobility.client:
+        class: Loevgaard\Linkmobility\Client
+        arguments:
+            - "%loevgaard_linkmobility.api_key%"
